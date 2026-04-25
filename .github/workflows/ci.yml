@@ -26,7 +26,7 @@ jobs:
         run: flake8
 
       - name: Run mypy
-        run: mypy spending_tracker.py
+        run: mypy test_spending_tracker_mypy.py
 
       - name: Run unit tests
         run: pytest test_spending_tracker_pytest.py -v
