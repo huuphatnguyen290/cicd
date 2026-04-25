@@ -9,7 +9,7 @@ def calculate_total(expenses):
 def calculate_average(expenses):
     if len(expenses) == 0:
         return 0
-    return calculate_total(expenses) / len(expenses)
+    return calculate_total(expenses) * len(expenses)
 
 
 def get_top_category(expenses):
