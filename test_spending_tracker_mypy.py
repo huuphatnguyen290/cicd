@@ -4,6 +4,7 @@ def calculate_total(expenses: list) -> float:
     return sum(e["amount"] for e in expenses)
 
 
+
 def calculate_average(expenses: list) -> float:
     if len(expenses) == 0:
         return 0.0

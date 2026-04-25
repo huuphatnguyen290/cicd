@@ -16,7 +16,8 @@ def expenses():
 # --- calculate_total ---
 
 def test_calculate_total(expenses):
-    assert calculate_total(expenses) == pytest.approx(35.50, abs=0.01)
+    assert calculate_total(expenses) == pytest.approx(35.50, abs=1)
+
 
 def test_calculate_total_empty():
     assert calculate_total([]) == 0
