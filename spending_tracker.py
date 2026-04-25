@@ -26,6 +26,7 @@ def add_expense(expenses, desc, amount, category):
         raise ValueError("Invalid expense")
     expenses.append({"desc": desc, "amount": amount, "category": category})
 
+
 if __name__ == "__main__":
     expenses: list = []
 
@@ -58,3 +59,4 @@ if __name__ == "__main__":
 
         elif choice == "3":
             break
+        
